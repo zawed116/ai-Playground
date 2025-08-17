@@ -14,6 +14,8 @@
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
+    "allowJs": true,          // ✅ JS/JSX files ko allow karega
+    "checkJs": false,         // ✅ JS linting ko ignore karega
 
     /* Linting */
     "strict": true,
